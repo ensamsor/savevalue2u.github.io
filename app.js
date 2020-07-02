@@ -10,5 +10,7 @@ document.getElementById('myform').addEventListener('submit', function(e){
     let unsyncProduct = "https://www.savevalue2u.com.my/shop-sync/shopee_product_function.php?remove=1&product_id=g" + strProductId;
     window.open(unsyncProduct,"_blank");
 
+    getUrl.value = "";
+
 });
 
