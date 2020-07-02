@@ -14,10 +14,10 @@ document.getElementById('myform').addEventListener('submit', function(e){
         setTimeout(function(){
             let unsyncProduct = "https://www.savevalue2u.com.my/shop-sync/sync_product.php?action=delete&product_id=g" + strProductId;
             location.replace(unsyncProduct);
-            document.getElementById('success').innerHTML="Success";
+            // success.innerHTML="Success";
         },1);
-        document.getElementById('success').innerHTML="Success";
+        // success.innerHTML="Success";
     },2);
-    document.getElementById('success').innerHTML="Success";
+    succes.innerHTML="Success";
 });
 
