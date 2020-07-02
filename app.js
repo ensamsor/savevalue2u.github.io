@@ -14,7 +14,6 @@ document.getElementById('myform').addEventListener('submit', function(e){
             let unsyncProduct = "https://www.savevalue2u.com.my/shop-sync/sync_product.php?action=delete&product_id=g" + strProductId;
             location.replace(unsyncProduct);
         },1);
-        document.getElementById('product_url').value = "";
     },2);
 
 });
