@@ -9,10 +9,10 @@ document.getElementById('myform').addEventListener('submit', function(e){
 
     setTimeout(function(){
         let removeProduct = "https://www.savevalue2u.com.my/shop-sync/sync_product.php?action=delete&product_id=g" + strProductId;
-        window.open(removeProduct);
+        window.open(removeProduct,"_blank");
         setTimeout(function(){
             let unsyncProduct = "https://www.savevalue2u.com.my/shop-sync/shopee_product_function.php?remove=1&product_id=g" + strProductId;
-            window.open(unsyncProduct,"_blank");
+            window.open(unsyncProduct);
         },1);
     },2);
 });
