@@ -16,8 +16,7 @@ document.getElementById('myform').addEventListener('submit', function(e){
             location.replace(unsyncProduct);
             // success.innerHTML="Success";
         },1);
-        // success.innerHTML="Success";
+        success.innerHTML="Success";
     },2);
-    succes.innerHTML="Success";
 });
 
